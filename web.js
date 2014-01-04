@@ -1,8 +1,10 @@
 var express = require('express');
 var logfmt = require('logfmt');
+var wwwhisper = require('connect-wwwhisper');
 var app = express();
 
 app.use(logfmt.requestLogger());
+app.use(wwwhisper());
 
 app.get('/', function(req, res) {
   res.send('Hello World!');
