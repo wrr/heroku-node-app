@@ -1,9 +1,7 @@
 var express = require('express');
-var wwwhisper = require('connect-wwwhisper');
 var logfmt = require('logfmt');
 var app = express();
 
-app.use(wwwhisper());
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
