@@ -10,7 +10,7 @@
   "main": "web.js",
   "dependencies": {
     "logfmt": "~0.18.1",
-    "express": "~3.4.7",
+    "express": "*",
     "connect-wwwhisper": "*",
     "jade": "*"
   },
