@@ -7,7 +7,6 @@
     "type": "git",
     "url": "ssh://git@github.com/wrr/heroku-node-app.git"
   },
-
   "main": "web.js",
   "dependencies": {
     "logfmt": "~0.18.1",
