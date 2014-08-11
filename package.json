@@ -11,7 +11,7 @@
   "dependencies": {
     "logfmt": "~0.18.1",
     "express": "*",
-    "connect-wwwhisper": "0.1.8",
+    "connect-wwwhisper": "0.1.9",
     "jade": "*"
   },
 
