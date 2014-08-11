@@ -4,7 +4,7 @@ var wwwhisper = require('connect-wwwhisper');
 var app = express();
 app.set('view engine', 'jade');
 app.use(logfmt.requestLogger());
-app.use(express.compress());
+//app.use(express.compress());
 //app.use(require('compression')());
 app.use(wwwhisper());
 //app.use(express.compress());
