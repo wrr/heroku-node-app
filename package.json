@@ -18,6 +18,6 @@
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
-    "node": "4.x.x"
+    "node": "8.x.x"
   }
 }
