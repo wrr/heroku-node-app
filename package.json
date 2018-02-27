@@ -9,12 +9,11 @@
   },
   "main": "web.js",
   "dependencies": {
-    "logfmt": "~0.18.1",
-    "express": "*",
-    "connect-wwwhisper": "*",
-    "jade": "*"
+    "connect-wwwhisper": "^0.1.20",
+    "express": "^4.16.2",
+    "jade": "*",
+    "logfmt": "~0.18.1"
   },
-
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
