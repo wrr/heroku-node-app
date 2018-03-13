@@ -9,10 +9,10 @@
   },
   "main": "web.js",
   "dependencies": {
-    "connect-wwwhisper": "^0.1.20",
-    "express": "^4.16.2",
+    "connect-wwwhisper": "*",
+    "express": "^4.16.3",
     "jade": "*",
-    "logfmt": "~0.18.1"
+    "logfmt": "^0.18.1"
   },
   "devDependencies": {},
   "optionalDependencies": {},
